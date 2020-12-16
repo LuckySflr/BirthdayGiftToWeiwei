@@ -19,7 +19,7 @@ void main()
 	startled();
 	while (1)
 	{
-		rnum = rand() % 45;
+		rnum = rand() % 43;
 		changeLED(rnum);
 		if (!songname_flag) //如果确认是最后一个片段结束了
 		{
